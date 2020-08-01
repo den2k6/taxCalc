@@ -52,4 +52,6 @@ footer {
   background-color: gainsboro;
   height: 120px;
   line-height: 80px;
+  font-size: 14px;
+  color: gray;
 }

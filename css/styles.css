@@ -1,0 +1,55 @@
+body {
+  margin: 0 auto;
+  width: 1000px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+header {
+  background-color: bisque;
+  height: 120px;
+  line-height: 120px;
+}
+
+.container {
+  background-color: honeydew;
+  display: flex;
+  flex: 1;
+}
+
+nav {
+  background-color: aliceblue;
+  width: 160px;
+}
+
+main {
+  background-color: cornsilk;
+  flex: 1;
+  line-height: 60px;
+  font-size: 32px;
+}
+
+#num,
+button {
+  margin: 40px 20px 40px 20px;
+  font-size: 32px;
+}
+
+.ctext {
+  font-size: 24px;
+  color: gray;
+}
+
+aside {
+  background-color: azure;
+  width: 160px;
+}
+
+footer {
+  background-color: gainsboro;
+  height: 120px;
+  line-height: 80px;
+}
